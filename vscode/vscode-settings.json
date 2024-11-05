@@ -1,0 +1,73 @@
+{
+  // Theme
+  "workbench.colorTheme": "Gruvbox Glass",
+  "workbench.iconTheme": "helium-icon-theme",
+  "helium-icon-theme.hidesExplorerArrows": true,
+  
+  // Window
+  "window.commandCenter": false,
+  "window.title": "${profileName}${separator}${rootName}",
+
+  // Workbench
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.editor.tabSizing": "fit",
+
+  // Editor
+  "editor.inlineSuggest.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "0xProto Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "breadcrumbs.enabled": false,
+  
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false,
+
+  // Integrated Terminal
+  "terminal.integrated.defaultProfile.windows":"PowerShell",
+  "terminal.integrated.fontFamily": "0xProto Nerd Font Mono",
+  "terminal.integrated.lineHeight": 1.5,
+
+  // PowerShell
+  "powershell.integratedConsole.showOnStartup": false,
+
+  // Additional Settings
+  "files.insertFinalNewline": true,
+  
+  // Formatters
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  // YAML
+  "yaml.customTags": [    ],
+  "yaml.validate": false,
+  "yaml.schemas": {
+      "file:///c%3A/Users/Jun%20Jiet%20Ng/.vscode/extensions/docsmsft.docs-yaml-1.0.4/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "redhat.telemetry.enabled": false,
+  "vscode_custom_css.imports": [
+      "file:///c:/Users/Jun Jiet Ng/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "animations.Enabled": true,
+}
